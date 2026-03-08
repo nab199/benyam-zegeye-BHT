@@ -1,0 +1,370 @@
+/* Medical Equipment Gallery Styles */
+.medical-equipment-gallery {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, var(--light-secondary) 0%, var(--light) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.medical-equipment-gallery::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="%230ea5e9" fill-opacity="0.03"%3E%3Cpath d="M30 30c0-8.3-6.7-15-15-15s-15 6.7-15 15 6.7 15 15 15 15-6.7 15-15zm15 0c0-8.3-6.7-15-15-15s-15 6.7-15 15 6.7 15 15 15 15-6.7 15-15z"/%3E%3C/g%3E%3C/svg%3E');
+}
+
+.equipment-showcase {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-bottom: 4rem;
+  position: relative;
+  z-index: 2;
+}
+
+.main-image-container {
+  position: relative;
+}
+
+.equipment-figure {
+  margin: 0;
+  border-radius: var(--border-radius-xl);
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  background: white;
+  position: relative;
+}
+
+.main-equipment-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  transition: var(--transition-smooth);
+}
+
+.equipment-figure:hover .main-equipment-image {
+  transform: scale(1.02);
+}
+
+.equipment-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+  color: white;
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+}
+
+.equipment-caption h3 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.equipment-caption p {
+  margin: 0;
+  opacity: 0.9;
+  font-size: 0.95rem;
+}
+
+.equipment-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.specifications {
+  background: white;
+  padding: 2rem;
+  border-radius: var(--border-radius-lg);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.specifications h4 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.specifications h4::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: var(--gradient-primary);
+  border-radius: 2px;
+}
+
+.spec-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.spec-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 0.75rem;
+  background: var(--light-secondary);
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+}
+
+.spec-item:hover {
+  background: var(--gradient-glass);
+  transform: translateX(5px);
+}
+
+.spec-item dt {
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.spec-item dd {
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.thumbnail-gallery {
+  background: white;
+  padding: 2rem;
+  border-radius: var(--border-radius-lg);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.thumbnail-gallery h4 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.thumbnail-gallery h4::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: var(--gradient-primary);
+  border-radius: 2px;
+}
+
+.thumbnails {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.thumbnail {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--light-secondary);
+  border: 2px solid transparent;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  text-align: left;
+}
+
+.thumbnail:hover {
+  background: var(--gradient-glass);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.thumbnail.active {
+  background: var(--gradient-primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.thumbnail.active .thumbnail-label {
+  color: white;
+}
+
+.thumbnail img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  flex-shrink: 0;
+}
+
+.thumbnail-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  line-height: 1.3;
+}
+
+.equipment-services {
+  background: white;
+  padding: 3rem;
+  border-radius: var(--border-radius-xl);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 2;
+}
+
+.equipment-services h3 {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--dark);
+  margin-bottom: 2rem;
+  text-align: center;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.service-card {
+  background: var(--gradient-glass);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  padding: 2rem;
+  border-radius: var(--border-radius-lg);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  transition: var(--transition-smooth);
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--gradient-primary);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover::before {
+  transform: scaleX(1);
+}
+
+.service-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.15);
+}
+
+.service-card h4 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 1rem;
+}
+
+.service-card p {
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .equipment-showcase {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .main-equipment-image {
+    height: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .medical-equipment-gallery {
+    padding: 4rem 0;
+  }
+  
+  .equipment-showcase {
+    gap: 2rem;
+  }
+  
+  .main-equipment-image {
+    height: 300px;
+  }
+  
+  .equipment-details {
+    gap: 1.5rem;
+  }
+  
+  .specifications,
+  .thumbnail-gallery {
+    padding: 1.5rem;
+  }
+  
+  .spec-item {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  
+  .equipment-services {
+    padding: 2rem;
+  }
+  
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .service-card {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .equipment-caption {
+    padding: 1.5rem;
+  }
+  
+  .equipment-caption h3 {
+    font-size: 1.25rem;
+  }
+  
+  .thumbnail {
+    padding: 0.75rem;
+  }
+  
+  .thumbnail img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .thumbnail-label {
+    font-size: 0.8rem;
+  }
+}

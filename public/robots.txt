@@ -1,0 +1,31 @@
+# Robots.txt for Bini Hemodialysis Technology
+# https://bini-hemodialysis-technology.com
+
+User-agent: *
+Allow: /
+
+# Prioritize important pages
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://bini-hemodialysis-technology.com/sitemap.xml
+
+# Block common non-content paths
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /.git/
+Disallow: /package*.json
+Disallow: /vite.config.js
+Disallow: /eslint.config.js
+
+# Allow search engines to access resources
+Allow: /public/
+Allow: /assets/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.ico

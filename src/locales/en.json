@@ -1,0 +1,62 @@
+
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title_1": "BRIDGING ENGINEERING",
+    "title_2": "AND MEDICINE",
+    "tagline": "Specialized in Hemodialysis Technology & Innovative Healthcare Solutions",
+    "view_projects": "View Projects",
+    "contact_me": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "role": "Biomedical Engineer & Freelance Developer",
+    "p1": "I am a dedicated Biomedical Engineer specializing in <1>Hemodialysis Technology</1>. With expertise in both hardware and software, I bridge the gap between biological systems and engineering principles.",
+    "p2": "As a freelancer, I provide technical support, maintenance, and innovative solutions for renal care facilities. My focus is on ensuring the reliability and efficiency of life-saving medical equipment.",
+    "experience": "Years Experience",
+    "projects_completed": "Projects Completed"
+  },
+  "skills": {
+    "title": "Technical Expertise",
+    "engineering": "Engineering",
+    "software": "Software",
+    "tools": "Tools & Lab"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "view_details": "View Details"
+  },
+  "equipment": {
+    "title": "Medical Equipment Showcase",
+    "subtitle": "Specialized expertise in hemodialysis technology and medical equipment",
+    "specifications": "Technical Specifications",
+    "gallery": "Equipment Gallery",
+    "services_title": "Our Services for Fresenius 2008K",
+    "preventive_maintenance": "Preventive Maintenance",
+    "preventive_maintenance_desc": "Regular maintenance schedules to ensure optimal performance and patient safety",
+    "technical_support": "Technical Support",
+    "technical_support_desc": "24/7 technical assistance and troubleshooting for equipment issues",
+    "calibration": "Calibration & Testing",
+    "calibration_desc": "Precise calibration and performance testing according to medical standards",
+    "training": "Staff Training",
+    "training_desc": "Comprehensive training for medical staff on equipment operation and safety"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Interested in collaborating on a project? Feel free to reach out.",
+    "name_placeholder": "Name",
+    "email_placeholder": "Email",
+    "message_placeholder": "Message",
+    "send_message": "Send Message",
+    "location": "Addis Ababa, Ethiopia"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
