@@ -8,53 +8,53 @@
     "contact": "Contact"
   },
   "hero": {
-    "title_1": "BRIDGING ENGINEERING",
-    "title_2": "AND MEDICINE",
-    "tagline": "Specialized in Hemodialysis Technology & Innovative Healthcare Solutions",
+    "title_1": "PROFESSIONAL BIOMEDICAL ENGINEER",
+    "title_2": "SPECIALIZING IN HEMODIALYSIS",
+    "tagline": "Expert in hemodialysis technology, medical equipment maintenance, and renal care solutions in Addis Ababa, Ethiopia. 3+ years experience with Fresenius 2008K machines.",
     "view_projects": "View Projects",
     "contact_me": "Contact Me"
   },
   "about": {
-    "title": "About Me",
-    "role": "Biomedical Engineer & Freelance Developer",
-    "p1": "I am a dedicated Biomedical Engineer specializing in <1>Hemodialysis Technology</1>. With expertise in both hardware and software, I bridge the gap between biological systems and engineering principles.",
-    "p2": "As a freelancer, I provide technical support, maintenance, and innovative solutions for renal care facilities. My focus is on ensuring the reliability and efficiency of life-saving medical equipment.",
+    "title": "About Me - Biomedical Engineer",
+    "role": "Professional Biomedical Engineer & Medical Technology Specialist",
+    "p1": "I am a dedicated <1>Biomedical Engineer</1> specializing in <1>Hemodialysis Technology</1>. With expertise in both hardware and software, I bridge the gap between biological systems and engineering principles.",
+    "p2": "As a freelance biomedical engineering professional, I provide technical support, preventive maintenance, and innovative solutions for renal care facilities throughout Ethiopia. My focus is on ensuring the reliability and efficiency of life-saving medical equipment including Fresenius 2008K hemodialysis machines.",
     "experience": "Years Experience",
     "projects_completed": "Projects Completed"
   },
   "skills": {
-    "title": "Technical Expertise",
-    "engineering": "Engineering",
-    "software": "Software",
-    "tools": "Tools & Lab"
+    "title": "Biomedical Engineering Expertise",
+    "engineering": "Medical Engineering",
+    "software": "Healthcare Software",
+    "tools": "Medical Tools & Lab"
   },
   "projects": {
-    "title": "Featured Projects",
+    "title": "Biomedical Engineering Projects",
     "view_details": "View Details"
   },
   "equipment": {
-    "title": "Medical Equipment Showcase",
-    "subtitle": "Specialized expertise in hemodialysis technology and medical equipment",
+    "title": "Medical Equipment Gallery - Hemodialysis Technology",
+    "subtitle": "Specialized expertise in Fresenius 2008K hemodialysis machines and medical equipment maintenance",
     "specifications": "Technical Specifications",
     "gallery": "Equipment Gallery",
-    "services_title": "Our Services for Fresenius 2008K",
+    "services_title": "Biomedical Engineering Services for Fresenius 2008K",
     "preventive_maintenance": "Preventive Maintenance",
-    "preventive_maintenance_desc": "Regular maintenance schedules to ensure optimal performance and patient safety",
+    "preventive_maintenance_desc": "Regular maintenance schedules to ensure optimal performance and patient safety for hemodialysis equipment",
     "technical_support": "Technical Support",
-    "technical_support_desc": "24/7 technical assistance and troubleshooting for equipment issues",
+    "technical_support_desc": "24/7 technical assistance and troubleshooting for biomedical equipment issues",
     "calibration": "Calibration & Testing",
-    "calibration_desc": "Precise calibration and performance testing according to medical standards",
+    "calibration_desc": "Precise calibration and performance testing according to medical standards and regulations",
     "training": "Staff Training",
-    "training_desc": "Comprehensive training for medical staff on equipment operation and safety"
+    "training_desc": "Comprehensive training for medical staff on biomedical equipment operation and safety protocols"
   },
   "contact": {
-    "title": "Get In Touch",
-    "subtitle": "Interested in collaborating on a project? Feel free to reach out.",
-    "name_placeholder": "Name",
-    "email_placeholder": "Email",
-    "message_placeholder": "Message",
+    "title": "Contact Biomedical Engineer",
+    "subtitle": "Looking for a professional biomedical engineer in Addis Ababa? Get in touch for expert hemodialysis technology services and medical equipment solutions.",
+    "name_placeholder": "Your Name",
+    "email_placeholder": "Your Email",
+    "message_placeholder": "Tell me about your project or requirements",
     "send_message": "Send Message",
-    "location": "Addis Ababa, Ethiopia"
+    "location": "Addis Ababa, Ethiopia - Serving Healthcare Facilities Nationwide"
   },
   "footer": {
     "rights": "All rights reserved."
