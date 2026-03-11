@@ -9,16 +9,16 @@
   },
   "hero": {
     "title_1": "PROFESSIONAL BIOMEDICAL ENGINEER",
-    "title_2": "SPECIALIZING IN HEMODIALYSIS",
-    "tagline": "Expert in hemodialysis technology, medical equipment maintenance, and renal care solutions in Addis Ababa, Ethiopia. 3+ years experience with Fresenius 2008K machines.",
+    "title_2": "SPECIALIZING IN HEMODIALYSIS & WATER TREATMENT",
+    "tagline": "Expert in hemodialysis technology, water treatment systems, medical equipment maintenance, and renal care solutions in Addis Ababa, Ethiopia. 3+ years experience with Fresenius 2008K machines and dialysis water purification.",
     "view_projects": "View Projects",
     "contact_me": "Contact Me"
   },
   "about": {
     "title": "About Me - Biomedical Engineer",
-    "role": "Professional Biomedical Engineer & Medical Technology Specialist",
-    "p1": "I am a dedicated <1>Biomedical Engineer</1> specializing in <1>Hemodialysis Technology</1>. With expertise in both hardware and software, I bridge the gap between biological systems and engineering principles.",
-    "p2": "As a freelance biomedical engineering professional, I provide technical support, preventive maintenance, and innovative solutions for renal care facilities throughout Ethiopia. My focus is on ensuring the reliability and efficiency of life-saving medical equipment including Fresenius 2008K hemodialysis machines.",
+    "role": "Professional Biomedical Engineer & Water Treatment Specialist",
+    "p1": "I am a dedicated <1>Biomedical Engineer</1> specializing in <1>Hemodialysis Technology</1> and <1>Water Treatment Systems</1>. With expertise in both hardware and software, I bridge the gap between biological systems and engineering principles.",
+    "p2": "As a freelance biomedical engineering professional, I provide technical support, preventive maintenance, and innovative solutions for renal care facilities throughout Ethiopia. My focus is on ensuring the reliability and efficiency of life-saving medical equipment including Fresenius 2008K hemodialysis machines and comprehensive water treatment systems for dialysis applications.",
     "experience": "Years Experience",
     "projects_completed": "Projects Completed"
   },
@@ -33,23 +33,23 @@
     "view_details": "View Details"
   },
   "equipment": {
-    "title": "Medical Equipment Gallery - Hemodialysis Technology",
-    "subtitle": "Specialized expertise in Fresenius 2008K hemodialysis machines and medical equipment maintenance",
+    "title": "Medical Equipment Gallery - Hemodialysis & Water Treatment",
+    "subtitle": "Specialized expertise in Fresenius 2008K hemodialysis machines, water treatment systems, and medical equipment maintenance",
     "specifications": "Technical Specifications",
     "gallery": "Equipment Gallery",
-    "services_title": "Biomedical Engineering Services for Fresenius 2008K",
+    "services_title": "Biomedical Engineering Services - Hemodialysis & Water Treatment",
     "preventive_maintenance": "Preventive Maintenance",
-    "preventive_maintenance_desc": "Regular maintenance schedules to ensure optimal performance and patient safety for hemodialysis equipment",
+    "preventive_maintenance_desc": "Regular maintenance schedules to ensure optimal performance and patient safety for hemodialysis equipment and water treatment systems",
     "technical_support": "Technical Support",
-    "technical_support_desc": "24/7 technical assistance and troubleshooting for biomedical equipment issues",
+    "technical_support_desc": "24/7 technical assistance and troubleshooting for biomedical equipment and water treatment issues",
     "calibration": "Calibration & Testing",
-    "calibration_desc": "Precise calibration and performance testing according to medical standards and regulations",
+    "calibration_desc": "Precise calibration and performance testing according to medical standards and regulations for both equipment and water quality",
     "training": "Staff Training",
-    "training_desc": "Comprehensive training for medical staff on biomedical equipment operation and safety protocols"
+    "training_desc": "Comprehensive training for medical staff on biomedical equipment operation, water treatment systems, and safety protocols"
   },
   "contact": {
     "title": "Contact Biomedical Engineer",
-    "subtitle": "Looking for a professional biomedical engineer in Addis Ababa? Get in touch for expert hemodialysis technology services and medical equipment solutions.",
+    "subtitle": "Looking for a professional biomedical engineer in Addis Ababa? Get in touch for expert hemodialysis technology, water treatment systems, and medical equipment solutions.",
     "name_placeholder": "Your Name",
     "email_placeholder": "Your Email",
     "message_placeholder": "Tell me about your project or requirements",

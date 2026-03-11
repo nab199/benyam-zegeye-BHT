@@ -2,6 +2,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import MedicalEquipmentGallery from './MedicalEquipmentGallery';
+import WaterTreatmentGallery from './WaterTreatmentGallery';
 
 const Projects = () => {
     const { t } = useTranslation();
@@ -16,6 +17,14 @@ const Projects = () => {
             featured: true
         },
         {
+            title: "Reverse Osmosis Water Treatment System",
+            description: "Complete installation and commissioning of 1500 L/hour reverse osmosis system for dialysis center, meeting AAMI water quality standards.",
+            tech: ["Water Treatment", "Reverse Osmosis", "Quality Control"],
+            image: "/photo_3_2026-03-11_14-05-02.jpg",
+            category: "Water Treatment",
+            featured: true
+        },
+        {
             title: "Hemodialysis Machine Maintenance Tracker",
             description: "A digital recording system for tracking maintenance schedules and performance logs of dialysis units.",
             tech: ["React", "Database", "Medical Standards"],
@@ -23,11 +32,25 @@ const Projects = () => {
             category: "Software Development"
         },
         {
+            title: "Dialysis Water Distribution Loop",
+            description: "Design and installation of closed-loop water distribution system for 20-station dialysis center with continuous monitoring.",
+            tech: ["Water Treatment", "Distribution Systems", "Quality Assurance"],
+            image: "/photo_4_2026-03-11_14-05-02.jpg",
+            category: "Water Treatment"
+        },
+        {
             title: "Dialysis Equipment Calibration System",
             description: "Automated calibration system for hemodialysis machines ensuring compliance with medical safety standards.",
             tech: ["Sensor Integration", "Quality Control", "Medical Compliance"],
             image: "/product-jpeg.jpg",
             category: "Quality Assurance"
+        },
+        {
+            title: "Water Quality Monitoring Dashboard",
+            description: "Real-time monitoring system for dialysis water quality parameters with automated alerts and data logging.",
+            tech: ["IoT Sensors", "React Dashboard", "Quality Management"],
+            image: "/photo_6_2026-03-11_14-05-02.jpg",
+            category: "Water Treatment"
         },
         {
             title: "Medical Imaging Analysis Tool",
@@ -117,6 +140,7 @@ const Projects = () => {
             </section>
 
             <MedicalEquipmentGallery />
+            <WaterTreatmentGallery />
         </>
     );
 };
